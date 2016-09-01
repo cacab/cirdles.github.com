@@ -8,7 +8,7 @@ permalink: /about/publications/
 Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation (NSF).
 
 * McLean, N., J. F. Bowring, and G. Gehrels (2016), **Algorithms and software for U-Pb 	geochronology by LA-ICPMS**, Geochem. Geophys. Geosyst., 2016, 
-<a href="https://www.google.com/search?q=doi%3A10.1002%2F2015GC006097&oq=doi%3A10.1002%2F2015GC006097&aqs=chrome..69i57j69i58.48831j0j4&sourceid=chrome&es_sm=119&ie=UTF-8" target="_blank">doi:10.1002/2015GC006097</a>, 15252027.
+<a href="http://onlinelibrary.wiley.com/doi/10.1002/2015GC006097/abstract" target="_blank">doi:10.1002/2015GC006097</a>, 15252027.
 
 * J. Bowring and H. Hegler, **Obsidian: Pattern-Based Unit Test Implementations**, Journal of Software Engineering and Applications, Vol. 7 No. 2, 2014, pp. 94-103. 
 <a href="../../assets/documents/obsidian-pattern-based-unit-test-implementations.pdf" target="_blank">doi:10.4236/jsea.2014.72011</a>.
