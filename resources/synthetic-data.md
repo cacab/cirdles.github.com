@@ -9,6 +9,6 @@ permalink: /resources/synthetic-data/
 
 Please refer to Noah McLean's November 2009 Tutorial on using Tripoli and U-Pb_Redux: [Tutorial](../assets/documents/U-Pb_Redux_Demo.pdf)
 
-[cm1.zip](../assets/downloads/cm1.zip)
+[cm1.zip](https://github.com/CIRDLES/cirdles.github.com/blob/master/assets/downloads/CM1.zip)
 
-[cm2.zip](../assets/downloads/cm2.zip)
+[cm2.zip](https://github.com/CIRDLES/cirdles.github.com/blob/master/assets/downloads/CM2.zip)
