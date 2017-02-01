@@ -6,23 +6,23 @@ category: Help
 reference: Procedures
 ---
 
-Getting Your GeoPassId
+### Getting Your GeoPassId
 
 Visit <a href="http://www.geochron.org/" target="_blank">geochron.org</a> to start the sign up process. Click on "My Account" to be directed to a login page. If you do not already have an account, click the "Sign up now!" link below the login form. Fill in the necessary fields and press the "Submit Registration" button. You will recieve a confirmation email with a link to confirm your account.
 
 Remember your username and password. This login information will be needed while using ET_Redux.
 
-GeoPass With ET_Redux
+### GeoPass With ET_Redux
 
 Once you have obtained your SESAR ID you can use this to register a sample. Your sample will be given a unique IGSN number. ET_Redux uses the IGSN as a source for metadata. You can now pull all of the metadata from SESAR to process the sample and ET_Redux can upload the data processing into Geochron - selecting public will make the samples viewable on a map. This functionality will allow samples to be viewable throughout the world.
 
-Running ET_Redux
+### Running ET_Redux
 
-**Double Click Method**
-
+#### Double Click Method
+ 
 Some systems will allow you to run a .jar file with the GUI simply by navigating to the file's home directory and double clicking it. 
 
-**From The Command Line**
+#### From The Command Line
 
 Open your preferred command terminal and navigate to the directory that contains the ET_Redux .jar file. Then run the following command:
 
@@ -32,7 +32,7 @@ Learn more about using a command line <a href="http://cli.learncodethehardway.or
 
 *Note: This command should work for all operating systems.*
 
-New <a href="#project">Project</a> from Raw Data
+#### New <a href="#project">Project</a> from Raw Data
 
 1. Open ET_Redux - note that this will generate two html files, ChangeLog.html and Credits.html
 2. To start, click "Project" in the top left corner.
@@ -48,7 +48,7 @@ New <a href="#project">Project</a> from Raw Data
 9. Select your Primary Reference Material.  Note the default is set in the Lab Settings Manager.
 10. Now you are ready to start the reduction process. You can either start a live session while the mass spectrometer is producing data or proceed to reduce an already-collected dataset as explained below.
 
-Live Data Reduction Processing:
+#### Live Data Reduction Processing:
 
 1. Click "Save and Monitor/Process Raw Data"
 2. Once the live data monitor is launched you will have to wait for at least 3-4 analysis to be recorded by the mass spectrometer software and processed by ET_Redux before seeing any data.
@@ -61,7 +61,7 @@ Live Data Reduction Processing:
 9. If you need to refresh, click "Refresh Views"
 10. Wait until the run has completed and proceed to Project Raw Data Manager (see below).
 
-Project Raw Data Manager
+#### Project Raw Data Manager
 
 1. Consider using the following view options singly or in combination to explore your data:
   * Y-axis Scaling set to Independent
@@ -77,12 +77,12 @@ Project Raw Data Manager
 9. When you are happy with your fits, to complete your reduction click "Update Report Table", which will remain grayed out until it finishes and then returns to the color white.
 10. Return to the main window showing the data table and click "Sample Dates" in the bottom right to launch the sample date manager with the concordia, weighted means, and PDF plots and views.
 
-Load Sample
+#### Load Sample
 
 Run ET&#95;Redux and you will be presented with a welcome screen. Click "Open Sample" at the bottom of the window. You will be prompted to select a Redux sample file. Browse to where you placed the unzipped synthetic data. Select a file with the .redux extension in CM*/CM*_Redux/. A table containing your data will appear on the screen. From here you can view graphs and generate concordia graphs.
 
 	
-New Sample Analysis for ID-TIMS
+#### New Sample Analysis for ID-TIMS
 
 After you have loaded data for a sample, you can use ET&#95;Redux's tools for interpretation of the geochronological data. ET&#95;Redux supports data reduction and interrogation of new U-Pb analyses. You can organize the data reduction using specialized managers for lab data, aliquots, fractions and sample dates.
 
@@ -101,45 +101,45 @@ After you have loaded data for a sample, you can use ET&#95;Redux's tools for in
   * two
   * three
   
-Using the Workflow Manager
+#### Using the Workflow Manager
 
 The Workflow Manager can be accessed by clicking *Sample* in the top menu of ET_Redux. You will be presented with several options for creating and editing a sample. To create a new sample, click *New Sample Analysis for ID-TIMS*. This opens the Workflow Manager for a new sample.
 
-**Editing the Sample Name**
+#### Editing the Sample Name
 
 To change the name of your sample input the desired name into the *Local Sample Name* box.
 
-**Adding an IGSN ID**
+#### Adding an IGSN ID
 
 To specify the IGSN, select the registry from the *Registry* drop down menu and input the ID into the *Sample ID* box. Click the button to the right of where you input the ID to validate the registry.
 
-**Adding Aliquots**
+#### Adding Aliquots
 
 To add an aliquot to your sample, type the name of the aliquot in the *Aliquot Name* box and click *Add Name*. This will add your aliquot to your sample's aliquot list. You can select an aliquot from that list to edit or remove it. If you ever want to change the name of an aliquot, select it from the list, change the name in the Add Name box, and click Save Edited.
 
-**Adding Fractions with Live Workflow**
+#### Adding Fractions with Live Workflow
 The Live Workflow mode establishes a direct link between Tripoli and ET_Redux. To enable Live Workflow, you must create a folder called "SampleMetaData" and then click the *Set SampleMetaData Folder* button. Tripoli must also be told the location of this SampleMetaData folder.  In Tripoli, point to this SampleMetaData folder with the *Set Live Workflow Data Folder* item from the Control Panel menu. Clicking the *START Live Workflow* button at the bottom of ET_Redux’s main screen immediately imports data from Tripoli and prompts ET_Redux to update its calculations. 
 
 
-**Adding Fractions Manually**
+#### Adding Fractions Manually
 Select an aliquot from the sample's aliquot list. Then click *Import Fraction Files* and navigate to your sample's fraction files which are saved as XML documents. You can import multiple fractions at a time by holding CTRL and clicking the files.
 
-Using the Lab Data Manager
+#### Using the Lab Data Manager
 
 From the Lab Data Manager you can import, create, and manage defined data models of data reduction parameters, such as for tracers, Pb and U fractionation, laboratory Pb blank and initial common Pb isotopic compositions, physical constants, mineral standards, and rare earth elements. ET_Redux saves the selected models with each sample file so they are available to anyone using ET_Redux to access the file. Just select *Lab Data* from the top menu of ET_Redux to manage your data models.
 
   
-Manual Fraction Entry
+#### Manual Fraction Entry
 
 Click Add Name to add the new aliquot. Increment the counter below to change the number of fractions it contains (you can add more at any time). Press Insert Fraction to add more fractions.
 
 Order the fractions in the data table with the arrows to the left. After entering the required information for each fraction, press "SaveAs Sample".  Navigate to the desired location, then create a new folder for your sample before saving the .redux file inside. SaveAs Sample controls the name and location of where you are saving - use "Close and Save" to save and close out of the project.  
   
-Using the Aliquot Manager
+### Using the Aliquot Manager
 
 Use the Aliquot Manager to organize the input parameters for the fractions in an aliquot, collate notes and metadata about the aliquot, and archive the reduced data to a database. To access the Aliquot Manager, click *Aliquots* and select the aliquot you would like to view or just click the aliquot's name in the main window. The Aliquot manager will open in a new window. The Aliquot Manager has five tabs situated near the bottom of the window.
 
-**Fraction Fast Details Tab**
+#### Fraction Fast Details Tab
 
 The *Fraction Fast Details* tab is the first tab you will see after opening the Aliquot manager. It contains a table with a row for each fraction and a column for each possible input reduction parameter organized into four groups which are broken down into further groups:
 
@@ -166,7 +166,7 @@ The *Fraction Fast Details* tab is the first tab you will see after opening the 
 	* Th/U of magma, uncertainty
 	* <sup>231</sup>Pa/<sup>235</sup>U activity ratio, uncertainty
 
-**Fraction Notes Tab**
+#### Fraction Notes Tab
 
 The *Fraction Notes* tab displays a concatinated list of the fractions in the aliquot and their corresponsing notes.
 
@@ -182,7 +182,7 @@ The *References, Metadata and Consistency* tab allows you to edit the references
 
 The *Archive Aliquot to Database* tab allows you to archive your aliquot to a database using its IGSN number which you set with the Sample Manager.
 
-Using the Fraction Manager
+**Using the Fraction Manager**
 
 The Fraction Manager provides detailed information about each paired U-Pb analysis organized into tabs. These tabs, situated at the bottom of the fraction manager, include *Pb Data*, *U Data*, *Tracer*, *Corrections*, *Pb Blank*, *Initial Pb*, *Reports*, *Archiving Details*, and *Kwiki*.
 
@@ -247,13 +247,13 @@ Using Geochron Data
 4. Press *Proceed to Aliquot Chooser*.
 5. Input one or more Aliquot IGSN from <a href="http://www.geochron.org/search.php" target="_blank">Geochron</a>.
 
-Reports Overview
+### Reports Overview
 
 The Reports menu gives the user control over ET_Redux's data table through the reports settings model.  The reports setting menu title will change in response to the isotope system as, for example, 'UPb Reports' and 'UTh Reports'.  ET_Redux allows the user to customize and save report settings models as XML files that can be applied to and saved with any ET_Redux data set, shared with other users, and used to format data tables downloaded as aliquots from <a href="http://GeoChron.org" target="_blank">GeoChron.org</a> on our Android mobile app <a href="http://cirdles.org/projects/chroni/" target="_blank">CHRONI</a>.  
 
 The data table is organized by categories that each have columns.  For example the category 'Dates' includes columns for date '206Pb/238U' and its associated uncertainty.  Other categories currently available include Fraction, PbcCorr (Common lead corrected) Dates, Composition, Isotopic Ratios, PbcCorr Isotopic Ratios, Correlation Coefficients, and Trace Elements. Customized footnotes are automatically generated and kept in alphabetical order from left to right. The rows are organized by aliquots, which contain one fraction or analysis per row.
 
-Managing Reports
+#### Managing Reports
 
 The Report Settings Manager is available as the first item under the Reports menu.  The manager allows the user to customize the data tables produced by ET_Redux by choosing and ordering the categories, and choosing and ordering the columns within each category. To hide or show a single category or column, double-click it or use the hide/show button.  The show ALL or hide ALL buttons hide or show all of the elements at once. Each column can be customized relative to whether significant digits are used to format the numerical entries in the table.  Units of Ma or Ka are available for the Dates category.
 
