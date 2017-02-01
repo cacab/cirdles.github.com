@@ -228,12 +228,6 @@ When the fraction is identified as having no initial Pb, the *Initial Pb* tab di
 1. Use a common Pb ore evolution model.
 2. Select a custom defined data model.
 
-**Reports Tab**
-
-The *Reports* tab allows you to write two files:
-
-1. A file containing all the inputs, intermediate variables, outputs, and their uncertainties.
-2. A file containing all of the covarience and Jacobian matrices used in the uncertainty propagation algorithms. 
 
 **Archiving Details Tab**
 
@@ -252,6 +246,13 @@ Using Geochron Data
 The Reports menu gives the user control over ET_Redux's data table through the reports settings model.  The reports setting menu title will change in response to the isotope system as, for example, 'UPb Reports' and 'UTh Reports'.  ET_Redux allows the user to customize and save report settings models as XML files that can be applied to and saved with any ET_Redux data set, shared with other users, and used to format data tables downloaded as aliquots from <a href="http://GeoChron.org" target="_blank">GeoChron.org</a> on our Android mobile app <a href="http://cirdles.org/projects/chroni/" target="_blank">CHRONI</a>.  
 
 The data table is organized by categories that each have columns.  For example the category 'Dates' includes columns for date '206Pb/238U' and its associated uncertainty.  Other categories currently available include Fraction, PbcCorr (Common lead corrected) Dates, Composition, Isotopic Ratios, PbcCorr Isotopic Ratios, Correlation Coefficients, and Trace Elements. Customized footnotes are automatically generated and kept in alphabetical order from left to right. The rows are organized by aliquots, which contain one fraction or analysis per row.
+
+**Reports Tab**
+
+The *Reports* tab allows you to write two files:
+
+1. A file containing all the inputs, intermediate variables, outputs, and their uncertainties.
+2. A file containing all of the covarience and Jacobian matrices used in the uncertainty propagation algorithms.
 
 #### Managing Reports
 
