@@ -33,57 +33,23 @@ Learn more about using a command line <a href="http://cli.learncodethehardway.or
 
 *Note: This command should work for all operating systems.*
 
-### New <a href="#project">Project</a> from Raw Data
-
-1. Open ET_Redux - note that this will generate two html files, ChangeLog.html and Credits.html
-2. To start, click "Project" in the top left corner.
-3. Then click "New Project" from Raw Data.
-4. Click "LA-ICP-MS".  Note that IDTIMS raw data is currently processed by our software [Tripoli](http://cirdles.org/projects/tripoli/).
-5. Now you will see the Project Manager interface where you specify your project. Start by entering your Project Name and then choosing the appropriate:
-  * File Handling Protocol
-  * Raw Data Template
-  * Analysis Purpose
-6. Finally, click "Prepare to load/Process Raw Data." Then, depending on your file handling protocol you will be able to select your data file or data folder and then click "Open" to show the parameters manager. If you use folders, be sure that all necessary files are present.
-7. Confirm that all parameters are correct - the defaults are shown initially.
-8. Full Uncertainty propagation is the default - use the fast option to explore datasets only.
-9. Select your Primary Reference Material.  Note the default is set in the Lab Settings Manager.
-10. Now you are ready to start the reduction process. You can either start a live session while the mass spectrometer is producing data or proceed to reduce an already-collected dataset as explained below.
-
-#### Live Data Reduction Processing:
-
-1. Click "Save and Monitor/Process Raw Data"
-2. Once the live data monitor is launched you will have to wait for at least 3-4 analysis to be recorded by the mass spectrometer software and processed by ET_Redux before seeing any data.
-3. To reject an analysis, right click on the selected <a href="#fraction">fraction</a> name in the report table located in the bottom portion of the manager and it will be sent to the rejected fractions tab but will still be reduced.
-4. To look at individual <a href="#sample">samples</a> (Reference Materials or Unknowns), double click on the project name in the panel to the left of the concordia, and a drop down menu will show all available groups to view on Concordia and on the PDF.  Note that the reference materials both primary and secondary will not appear in the PDF view.
-5. To set filters for percent discordance and percent uncertainty, adjust the sliders in the panel under the PDF. To apply them to the Concordia plot, select "apply filters" checkbox under the Concordia.  To set the sliders to the default values specified in the lab data manager, click "Default", and to clear the filters, click "Clear".
-6. To change what dates are shown on the PDF, select one of the three dates (6/8, 6/7, or best date). We suggest the best date option.
-7. Best date filter can be changed while you are looking at unknowns in Concordia space by sliding the blue best date handle on the vertical axis.
-8. When a fraction is removed be patient as it will take until the next primary reference material fraction to update the session.
-9. If you need to refresh, click "Refresh Views"
-10. Wait until the run has completed and proceed to Project Raw Data Manager (see below).
-
-#### Project Raw Data Manager
-
-1. Consider using the following view options singly or in combination to explore your data:
-  * Y-axis Scaling set to Independent
-  * Show All Local Y-axis
-  * Make horizonal zoom very tight to highlight patterns in data
-2. Start with the default "Intercept" method tab.
-3. Review the reference materials to make sure ratios are within acceptable rages. It will be very clear when an analysis is bad. You will either see a very large scatter in data points or the fit line will be far off the data points.  Be sure to select the appropriate fit functions on a ratio-by-ratio basis, or even for each graph.
-4. Click "Show Session" button.
-5. The time-based session views for each ratio plot the reference materials and their 1-sigma absolute uncertainties in black and over-dispersion of uncertainties in red, if calculated. Each session can be fitted with a choice of mean, line, exponential or spline functions. 
-6. To remove a data point for a reference material, hover over the black dot and right click. You will be asked to “exclude this fraction", click on it and the black dot will change to red indicating it has been removed.
-7. Once you have removed all unwanted data points you MUST click "Refit" on the left update the plot and MSWD. 
-8. Next, click "Fit Unknowns" and evaluate each fraction and ratio for the unknowns and the secondary reference materials, which are also treated as unkowns.
-9. When you are happy with your fits, to complete your reduction click "Update Report Table", which will remain grayed out until it finishes and then returns to the color white.
-10. Return to the main window showing the data table and click "Sample Dates" in the bottom right to launch the sample date manager with the concordia, weighted means, and PDF plots and views.
-
-#### Load Sample
+### Load Sample
 
 Run ET&#95;Redux and you will be presented with a welcome screen. Click "Open Sample" at the bottom of the window. You will be prompted to select a Redux sample file. Browse to where you placed the unzipped synthetic data. Select a file with the .redux extension in CM*/CM*_Redux/. A table containing your data will appear on the screen. From here you can view graphs and generate concordia graphs.
 
-	
-#### New Sample Analysis for ID-TIMS
+#### Using the Workflow Manager
+
+The Workflow Manager can be accessed by clicking *Sample* in the top menu of ET_Redux. You will be presented with several options for creating and editing a sample. To create a new sample, click *New Sample Analysis for ID-TIMS*. This opens the Workflow Manager for a new sample.
+
+#### Editing the Sample Name
+
+To change the name of your sample input the desired name into the *Local Sample Name* box.
+
+#### Adding an IGSN ID
+
+To specify the IGSN, select the registry from the *Registry* drop down menu and input the ID into the *Sample ID* box. Click the button to the right of where you input the ID to validate the registry.
+
+### New Sample Analysis for ID-TIMS
 
 After you have loaded data for a sample, you can use ET&#95;Redux's tools for interpretation of the geochronological data. ET&#95;Redux supports data reduction and interrogation of new U-Pb analyses. You can organize the data reduction using specialized managers for lab data, aliquots, fractions and sample dates.
 
@@ -101,18 +67,53 @@ After you have loaded data for a sample, you can use ET&#95;Redux's tools for in
   * one
   * two
   * three
-  
-#### Using the Workflow Manager
 
-The Workflow Manager can be accessed by clicking *Sample* in the top menu of ET_Redux. You will be presented with several options for creating and editing a sample. To create a new sample, click *New Sample Analysis for ID-TIMS*. This opens the Workflow Manager for a new sample.
+### New <a href="#project">Project</a> from Raw Data
 
-#### Editing the Sample Name
+1. Open ET_Redux - note that this will generate two html files, ChangeLog.html and Credits.html
+2. To start, click "Project" in the top left corner.
+3. Then click "New Project" from Raw Data.
+4. Click "LA-ICP-MS".  Note that IDTIMS raw data is currently processed by our software [Tripoli](http://cirdles.org/projects/tripoli/).
+5. Now you will see the Project Manager interface where you specify your project. Start by entering your Project Name and then choosing the appropriate:
+  * File Handling Protocol
+  * Raw Data Template
+  * Analysis Purpose
+6. Finally, click "Prepare to load/Process Raw Data." Then, depending on your file handling protocol you will be able to select your data file or data folder and then click "Open" to show the parameters manager. If you use folders, be sure that all necessary files are present.
+7. Confirm that all parameters are correct - the defaults are shown initially.
+8. Full Uncertainty propagation is the default - use the fast option to explore datasets only.
+9. Select your Primary Reference Material.  Note the default is set in the Lab Settings Manager.
+10. Now you are ready to start the reduction process. You can either start a live session while the mass spectrometer is producing data or proceed to reduce an already-collected dataset as explained below.
 
-To change the name of your sample input the desired name into the *Local Sample Name* box.
 
-#### Adding an IGSN ID
+### Project Raw Data Manager
 
-To specify the IGSN, select the registry from the *Registry* drop down menu and input the ID into the *Sample ID* box. Click the button to the right of where you input the ID to validate the registry.
+1. Consider using the following view options singly or in combination to explore your data:
+  * Y-axis Scaling set to Independent
+  * Show All Local Y-axis
+  * Make horizonal zoom very tight to highlight patterns in data
+2. Start with the default "Intercept" method tab.
+3. Review the reference materials to make sure ratios are within acceptable rages. It will be very clear when an analysis is bad. You will either see a very large scatter in data points or the fit line will be far off the data points.  Be sure to select the appropriate fit functions on a ratio-by-ratio basis, or even for each graph.
+4. Click "Show Session" button.
+5. The time-based session views for each ratio plot the reference materials and their 1-sigma absolute uncertainties in black and over-dispersion of uncertainties in red, if calculated. Each session can be fitted with a choice of mean, line, exponential or spline functions. 
+6. To remove a data point for a reference material, hover over the black dot and right click. You will be asked to “exclude this fraction", click on it and the black dot will change to red indicating it has been removed.
+7. Once you have removed all unwanted data points you MUST click "Refit" on the left update the plot and MSWD. 
+8. Next, click "Fit Unknowns" and evaluate each fraction and ratio for the unknowns and the secondary reference materials, which are also treated as unkowns.
+9. When you are happy with your fits, to complete your reduction click "Update Report Table", which will remain grayed out until it finishes and then returns to the color white.
+10. Return to the main window showing the data table and click "Sample Dates" in the bottom right to launch the sample date manager with the concordia, weighted means, and PDF plots and views.
+
+### Live Data Reduction Processing:
+
+1. Click "Save and Monitor/Process Raw Data"
+2. Once the live data monitor is launched you will have to wait for at least 3-4 analysis to be recorded by the mass spectrometer software and processed by ET_Redux before seeing any data.
+3. To reject an analysis, right click on the selected <a href="#fraction">fraction</a> name in the report table located in the bottom portion of the manager and it will be sent to the rejected fractions tab but will still be reduced.
+4. To look at individual <a href="#sample">samples</a> (Reference Materials or Unknowns), double click on the project name in the panel to the left of the concordia, and a drop down menu will show all available groups to view on Concordia and on the PDF.  Note that the reference materials both primary and secondary will not appear in the PDF view.
+5. To set filters for percent discordance and percent uncertainty, adjust the sliders in the panel under the PDF. To apply them to the Concordia plot, select "apply filters" checkbox under the Concordia.  To set the sliders to the default values specified in the lab data manager, click "Default", and to clear the filters, click "Clear".
+6. To change what dates are shown on the PDF, select one of the three dates (6/8, 6/7, or best date). We suggest the best date option.
+7. Best date filter can be changed while you are looking at unknowns in Concordia space by sliding the blue best date handle on the vertical axis.
+8. When a fraction is removed be patient as it will take until the next primary reference material fraction to update the session.
+9. If you need to refresh, click "Refresh Views"
+10. Wait until the run has completed and proceed to Project Raw Data Manager (see below).
+
 
 #### Adding Aliquots
 
