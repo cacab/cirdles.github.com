@@ -6,23 +6,24 @@ category: Help
 reference: Procedures
 ---
 
-### Getting Your GeoPassId
+## GeoPass With ET_Redux
+
+Once you have obtained your SESAR ID you can use this to register a sample. Your sample will be given a unique IGSN number. ET_Redux uses the IGSN as a source for metadata. You can now pull all of the metadata from SESAR to process the sample and ET_Redux can upload the data processing into Geochron - selecting public will make the samples viewable on a map. This functionality will allow samples to be viewable throughout the world.
+
+## Getting Your GeoPassId
 
 Visit <a href="http://www.geochron.org/" target="_blank">geochron.org</a> to start the sign up process. Click on "My Account" to be directed to a login page. If you do not already have an account, click the "Sign up now!" link below the login form. Fill in the necessary fields and press the "Submit Registration" button. You will recieve a confirmation email with a link to confirm your account.
 
 Remember your username and password. This login information will be needed while using ET_Redux.
 
-### GeoPass With ET_Redux
 
-Once you have obtained your SESAR ID you can use this to register a sample. Your sample will be given a unique IGSN number. ET_Redux uses the IGSN as a source for metadata. You can now pull all of the metadata from SESAR to process the sample and ET_Redux can upload the data processing into Geochron - selecting public will make the samples viewable on a map. This functionality will allow samples to be viewable throughout the world.
+## Running ET_Redux
 
-### Running ET_Redux
-
-#### Double Click Method
+### Double Click Method
  
 Some systems will allow you to run a .jar file with the GUI simply by navigating to the file's home directory and double clicking it. 
 
-#### From The Command Line
+### From The Command Line
 
 Open your preferred command terminal and navigate to the directory that contains the ET_Redux .jar file. Then run the following command:
 
@@ -32,7 +33,7 @@ Learn more about using a command line <a href="http://cli.learncodethehardway.or
 
 *Note: This command should work for all operating systems.*
 
-#### New <a href="#project">Project</a> from Raw Data
+### New <a href="#project">Project</a> from Raw Data
 
 1. Open ET_Redux - note that this will generate two html files, ChangeLog.html and Credits.html
 2. To start, click "Project" in the top left corner.
@@ -228,12 +229,6 @@ When the fraction is identified as having no initial Pb, the *Initial Pb* tab di
 1. Use a common Pb ore evolution model.
 2. Select a custom defined data model.
 
-**Reports Tab**
-
-The *Reports* tab allows you to write two files:
-
-1. A file containing all the inputs, intermediate variables, outputs, and their uncertainties.
-2. A file containing all of the covarience and Jacobian matrices used in the uncertainty propagation algorithms. 
 
 **Archiving Details Tab**
 
@@ -252,6 +247,13 @@ Using Geochron Data
 The Reports menu gives the user control over ET_Redux's data table through the reports settings model.  The reports setting menu title will change in response to the isotope system as, for example, 'UPb Reports' and 'UTh Reports'.  ET_Redux allows the user to customize and save report settings models as XML files that can be applied to and saved with any ET_Redux data set, shared with other users, and used to format data tables downloaded as aliquots from <a href="http://GeoChron.org" target="_blank">GeoChron.org</a> on our Android mobile app <a href="http://cirdles.org/projects/chroni/" target="_blank">CHRONI</a>.  
 
 The data table is organized by categories that each have columns.  For example the category 'Dates' includes columns for date '206Pb/238U' and its associated uncertainty.  Other categories currently available include Fraction, PbcCorr (Common lead corrected) Dates, Composition, Isotopic Ratios, PbcCorr Isotopic Ratios, Correlation Coefficients, and Trace Elements. Customized footnotes are automatically generated and kept in alphabetical order from left to right. The rows are organized by aliquots, which contain one fraction or analysis per row.
+
+**Reports Tab**
+
+The *Reports* tab allows you to write two files:
+
+1. A file containing all the inputs, intermediate variables, outputs, and their uncertainties.
+2. A file containing all of the covarience and Jacobian matrices used in the uncertainty propagation algorithms.
 
 #### Managing Reports
 
