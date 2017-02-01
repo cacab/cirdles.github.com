@@ -115,35 +115,36 @@ After you have loaded data for a sample, you can use ET&#95;Redux's tools for in
 10. Wait until the run has completed and proceed to Project Raw Data Manager (see below).
 
 
-#### Adding Aliquots
-
-To add an aliquot to your sample, type the name of the aliquot in the *Aliquot Name* box and click *Add Name*. This will add your aliquot to your sample's aliquot list. You can select an aliquot from that list to edit or remove it. If you ever want to change the name of an aliquot, select it from the list, change the name in the Add Name box, and click Save Edited.
-
-#### Adding Fractions with Live Workflow
-The Live Workflow mode establishes a direct link between Tripoli and ET_Redux. To enable Live Workflow, you must create a folder called "SampleMetaData" and then click the *Set SampleMetaData Folder* button. Tripoli must also be told the location of this SampleMetaData folder.  In Tripoli, point to this SampleMetaData folder with the *Set Live Workflow Data Folder* item from the Control Panel menu. Clicking the *START Live Workflow* button at the bottom of ET_Redux’s main screen immediately imports data from Tripoli and prompts ET_Redux to update its calculations. 
-
-
-#### Adding Fractions Manually
-Select an aliquot from the sample's aliquot list. Then click *Import Fraction Files* and navigate to your sample's fraction files which are saved as XML documents. You can import multiple fractions at a time by holding CTRL and clicking the files.
-
-#### Using the Lab Data Manager
-
-From the Lab Data Manager you can import, create, and manage defined data models of data reduction parameters, such as for tracers, Pb and U fractionation, laboratory Pb blank and initial common Pb isotopic compositions, physical constants, mineral standards, and rare earth elements. ET_Redux saves the selected models with each sample file so they are available to anyone using ET_Redux to access the file. Just select *Lab Data* from the top menu of ET_Redux to manage your data models.
-
-  
-#### Manual Fraction Entry
-
-Click Add Name to add the new aliquot. Increment the counter below to change the number of fractions it contains (you can add more at any time). Press Insert Fraction to add more fractions.
-
-Order the fractions in the data table with the arrows to the left. After entering the required information for each fraction, press "SaveAs Sample".  Navigate to the desired location, then create a new folder for your sample before saving the .redux file inside. SaveAs Sample controls the name and location of where you are saving - use "Close and Save" to save and close out of the project.  
-  
 ### Using the Aliquot Manager
 
 Use the Aliquot Manager to organize the input parameters for the fractions in an aliquot, collate notes and metadata about the aliquot, and archive the reduced data to a database. To access the Aliquot Manager, click *Aliquots* and select the aliquot you would like to view or just click the aliquot's name in the main window. The Aliquot manager will open in a new window. The Aliquot Manager has five tabs situated near the bottom of the window.
 
+
+#### Adding Aliquots
+
+>To add an aliquot to your sample, type the name of the aliquot in the *Aliquot Name* box and click *Add Name*. This will add your aliquot to your sample's aliquot list. You can select an aliquot from that list to edit or remove it. If you ever want to change the name of an aliquot, select it from the list, change the name in the Add Name box, and click Save Edited.
+
+#### Adding Fractions Manually
+>Select an aliquot from the sample's aliquot list. Then click *Import Fraction Files* and navigate to your sample's fraction files which are saved as XML documents. You can import multiple fractions at a time by holding CTRL and clicking the files.
+
+#### Adding Fractions with Live Workflow
+>The Live Workflow mode establishes a direct link between Tripoli and ET_Redux. To enable Live Workflow, you must create a folder called "SampleMetaData" and then click the *Set SampleMetaData Folder* button. Tripoli must also be told the location of this SampleMetaData folder.  In Tripoli, point to this SampleMetaData folder with the *Set Live Workflow Data Folder* item from the Control Panel menu. Clicking the *START Live Workflow* button at the bottom of ET_Redux’s main screen immediately imports data from Tripoli and prompts ET_Redux to update its calculations. 
+
+#### Using the Lab Data Manager
+
+>From the Lab Data Manager you can import, create, and manage defined data models of data reduction parameters, such as for tracers, Pb and U fractionation, laboratory Pb blank and initial common Pb isotopic compositions, physical constants, mineral standards, and rare earth elements. ET_Redux saves the selected models with each sample file so they are available to anyone using ET_Redux to access the file. Just select *Lab Data* from the top menu of ET_Redux to manage your data models.
+
+  
+#### Manual Fraction Entry
+
+>Click Add Name to add the new aliquot. Increment the counter below to change the number of fractions it contains (you can add more at any time). Press Insert Fraction to add more fractions.
+
+>Order the fractions in the data table with the arrows to the left. After entering the required information for each fraction, press "SaveAs Sample".  Navigate to the desired location, then create a new folder for your sample before saving the .redux file inside. SaveAs Sample controls the name and location of where you are saving - use "Close and Save" to save and close out of the project.  
+  
+
 #### Fraction Fast Details Tab
 
-The *Fraction Fast Details* tab is the first tab you will see after opening the Aliquot manager. It contains a table with a row for each fraction and a column for each possible input reduction parameter organized into four groups which are broken down into further groups:
+>The *Fraction Fast Details* tab is the first tab you will see after opening the Aliquot manager. It contains a table with a row for each fraction and a column for each possible input reduction parameter organized into four groups which are broken down into further groups:
 
 1. Laboratory Data
 	* Fraction Name
@@ -170,25 +171,25 @@ The *Fraction Fast Details* tab is the first tab you will see after opening the 
 
 #### Fraction Notes Tab
 
-The *Fraction Notes* tab displays a concatinated list of the fractions in the aliquot and their corresponsing notes.
+>The *Fraction Notes* tab displays a concatinated list of the fractions in the aliquot and their corresponsing notes.
 
 **Fraction Archiving Details Tab**
 
-The *Fraction Archiving Details* tab allows you to edit the archiving details of your fractions.
+>The *Fraction Archiving Details* tab allows you to edit the archiving details of your fractions.
 
 **References, Metadata and Consistency Tab** 
 
-The *References, Metadata and Consistency* tab allows you to edit the references and metadata for your aliquot.
+>The *References, Metadata and Consistency* tab allows you to edit the references and metadata for your aliquot.
 
 **Archive Aliquot to Database Tab**
 
-The *Archive Aliquot to Database* tab allows you to archive your aliquot to a database using its IGSN number which you set with the Sample Manager.
+>The *Archive Aliquot to Database* tab allows you to archive your aliquot to a database using its IGSN number which you set with the Sample Manager.
 
 **Using the Fraction Manager**
 
-The Fraction Manager provides detailed information about each paired U-Pb analysis organized into tabs. These tabs, situated at the bottom of the fraction manager, include *Pb Data*, *U Data*, *Tracer*, *Corrections*, *Pb Blank*, *Initial Pb*, *Reports*, *Archiving Details*, and *Kwiki*.
+>The Fraction Manager provides detailed information about each paired U-Pb analysis organized into tabs. These tabs, situated at the bottom of the fraction manager, include *Pb Data*, *U Data*, *Tracer*, *Corrections*, *Pb Blank*, *Initial Pb*, *Reports*, *Archiving Details*, and *Kwiki*.
 
-**Kwiki Tab**
+### Kwiki Tab
 
 The most informative tab of the fraction manager is the *Kwiki* tab. The left-hand panel of the *Kwiki* tab is a table with a row for each input parameter. The columns display the name, value, and uncertainty of the input reduction parameter. The values and their uncertainties are displayed with miniature sliders. As you adjust the sliders the data is rereduced and the changes are reflected in the three other data panels. The sliders are intended for hypothesis testing and data exploration only. All changes are temporary and will be reset upon exiting the *Kwiki* tab. 
 
