@@ -33,21 +33,82 @@ Learn more about using a command line <a href="http://cli.learncodethehardway.or
 
 *Note: This command should work for all operating systems.*
 
+------
+
+### New <a href="#project">Project</a> from Raw Data
+
+1. Open ET_Redux - note that this will generate two html files, ChangeLog.html and Credits.html
+2. To start, click "Project" in the top left corner.
+3. Then click "New Project" from Raw Data.
+4. Click "LA-ICP-MS".  Note that IDTIMS raw data is currently processed by our software [Tripoli](http://cirdles.org/projects/tripoli/).
+5. Now you will see the Project Manager interface where you specify your project. Start by entering your Project Name and then choosing the appropriate:
+  * File Handling Protocol
+  * Raw Data Template
+  * Analysis Purpose
+6. Finally, click "Prepare to load/Process Raw Data." Then, depending on your file handling protocol you will be able to select your data file or data folder and then click "Open" to show the parameters manager. If you use folders, be sure that all necessary files are present.
+7. Confirm that all parameters are correct - the defaults are shown initially.
+8. Full Uncertainty propagation is the default - use the fast option to explore datasets only.
+9. Select your Primary Reference Material.  Note the default is set in the Lab Settings Manager.
+10. Now you are ready to start the reduction process. You can either start a live session while the mass spectrometer is producing data or proceed to reduce an already-collected dataset as explained below.
+
+-----
+
+### Project Raw Data Manager
+
+1. Consider using the following view options singly or in combination to explore your data:
+  * Y-axis Scaling set to Independent
+  * Show All Local Y-axis
+  * Make horizonal zoom very tight to highlight patterns in data
+2. Start with the default "Intercept" method tab.
+3. Review the reference materials to make sure ratios are within acceptable rages. It will be very clear when an analysis is bad. You will either see a very large scatter in data points or the fit line will be far off the data points.  Be sure to select the appropriate fit functions on a ratio-by-ratio basis, or even for each graph.
+4. Click "Show Session" button.
+5. The time-based session views for each ratio plot the reference materials and their 1-sigma absolute uncertainties in black and over-dispersion of uncertainties in red, if calculated. Each session can be fitted with a choice of mean, line, exponential or spline functions. 
+6. To remove a data point for a reference material, hover over the black dot and right click. You will be asked to “exclude this fraction", click on it and the black dot will change to red indicating it has been removed.
+7. Once you have removed all unwanted data points you MUST click "Refit" on the left update the plot and MSWD. 
+8. Next, click "Fit Unknowns" and evaluate each fraction and ratio for the unknowns and the secondary reference materials, which are also treated as unkowns.
+9. When you are happy with your fits, to complete your reduction click "Update Report Table", which will remain grayed out until it finishes and then returns to the color white.
+10. Return to the main window showing the data table and click "Sample Dates" in the bottom right to launch the sample date manager with the concordia, weighted means, and PDF plots and views.
+
+----
+
+### Live Data Reduction Processing:
+
+1. Click "Save and Monitor/Process Raw Data"
+2. Once the live data monitor is launched you will have to wait for at least 3-4 analysis to be recorded by the mass spectrometer software and processed by ET_Redux before seeing any data.
+3. To reject an analysis, right click on the selected <a href="#fraction">fraction</a> name in the report table located in the bottom portion of the manager and it will be sent to the rejected fractions tab but will still be reduced.
+4. To look at individual <a href="#sample">samples</a> (Reference Materials or Unknowns), double click on the project name in the panel to the left of the concordia, and a drop down menu will show all available groups to view on Concordia and on the PDF.  Note that the reference materials both primary and secondary will not appear in the PDF view.
+5. To set filters for percent discordance and percent uncertainty, adjust the sliders in the panel under the PDF. To apply them to the Concordia plot, select "apply filters" checkbox under the Concordia.  To set the sliders to the default values specified in the lab data manager, click "Default", and to clear the filters, click "Clear".
+6. To change what dates are shown on the PDF, select one of the three dates (6/8, 6/7, or best date). We suggest the best date option.
+7. Best date filter can be changed while you are looking at unknowns in Concordia space by sliding the blue best date handle on the vertical axis.
+8. When a fraction is removed be patient as it will take until the next primary reference material fraction to update the session.
+9. If you need to refresh, click "Refresh Views"
+10. Wait until the run has completed and proceed to Project Raw Data Manager (see below).
+
+-----
+
 ### Load Sample
 
 Run ET&#95;Redux and you will be presented with a welcome screen. Click "Open Sample" at the bottom of the window. You will be prompted to select a Redux sample file. Browse to where you placed the unzipped synthetic data. Select a file with the .redux extension in CM*/CM*_Redux/. A table containing your data will appear on the screen. From here you can view graphs and generate concordia graphs.
+
+-----
 
 #### Using the Workflow Manager
 
 The Workflow Manager can be accessed by clicking *Sample* in the top menu of ET_Redux. You will be presented with several options for creating and editing a sample. To create a new sample, click *New Sample Analysis for ID-TIMS*. This opens the Workflow Manager for a new sample.
 
+------
+
 #### Editing the Sample Name
 
 To change the name of your sample input the desired name into the *Local Sample Name* box.
 
+------
+
 #### Adding an IGSN ID
 
 To specify the IGSN, select the registry from the *Registry* drop down menu and input the ID into the *Sample ID* box. Click the button to the right of where you input the ID to validate the registry.
+
+------
 
 ### New Sample Analysis for ID-TIMS
 
@@ -68,83 +129,49 @@ After you have loaded data for a sample, you can use ET&#95;Redux's tools for in
   * two
   * three
 
-### New <a href="#project">Project</a> from Raw Data
-
-1. Open ET_Redux - note that this will generate two html files, ChangeLog.html and Credits.html
-2. To start, click "Project" in the top left corner.
-3. Then click "New Project" from Raw Data.
-4. Click "LA-ICP-MS".  Note that IDTIMS raw data is currently processed by our software [Tripoli](http://cirdles.org/projects/tripoli/).
-5. Now you will see the Project Manager interface where you specify your project. Start by entering your Project Name and then choosing the appropriate:
-  * File Handling Protocol
-  * Raw Data Template
-  * Analysis Purpose
-6. Finally, click "Prepare to load/Process Raw Data." Then, depending on your file handling protocol you will be able to select your data file or data folder and then click "Open" to show the parameters manager. If you use folders, be sure that all necessary files are present.
-7. Confirm that all parameters are correct - the defaults are shown initially.
-8. Full Uncertainty propagation is the default - use the fast option to explore datasets only.
-9. Select your Primary Reference Material.  Note the default is set in the Lab Settings Manager.
-10. Now you are ready to start the reduction process. You can either start a live session while the mass spectrometer is producing data or proceed to reduce an already-collected dataset as explained below.
-
-
-### Project Raw Data Manager
-
-1. Consider using the following view options singly or in combination to explore your data:
-  * Y-axis Scaling set to Independent
-  * Show All Local Y-axis
-  * Make horizonal zoom very tight to highlight patterns in data
-2. Start with the default "Intercept" method tab.
-3. Review the reference materials to make sure ratios are within acceptable rages. It will be very clear when an analysis is bad. You will either see a very large scatter in data points or the fit line will be far off the data points.  Be sure to select the appropriate fit functions on a ratio-by-ratio basis, or even for each graph.
-4. Click "Show Session" button.
-5. The time-based session views for each ratio plot the reference materials and their 1-sigma absolute uncertainties in black and over-dispersion of uncertainties in red, if calculated. Each session can be fitted with a choice of mean, line, exponential or spline functions. 
-6. To remove a data point for a reference material, hover over the black dot and right click. You will be asked to “exclude this fraction", click on it and the black dot will change to red indicating it has been removed.
-7. Once you have removed all unwanted data points you MUST click "Refit" on the left update the plot and MSWD. 
-8. Next, click "Fit Unknowns" and evaluate each fraction and ratio for the unknowns and the secondary reference materials, which are also treated as unkowns.
-9. When you are happy with your fits, to complete your reduction click "Update Report Table", which will remain grayed out until it finishes and then returns to the color white.
-10. Return to the main window showing the data table and click "Sample Dates" in the bottom right to launch the sample date manager with the concordia, weighted means, and PDF plots and views.
-
-### Live Data Reduction Processing:
-
-1. Click "Save and Monitor/Process Raw Data"
-2. Once the live data monitor is launched you will have to wait for at least 3-4 analysis to be recorded by the mass spectrometer software and processed by ET_Redux before seeing any data.
-3. To reject an analysis, right click on the selected <a href="#fraction">fraction</a> name in the report table located in the bottom portion of the manager and it will be sent to the rejected fractions tab but will still be reduced.
-4. To look at individual <a href="#sample">samples</a> (Reference Materials or Unknowns), double click on the project name in the panel to the left of the concordia, and a drop down menu will show all available groups to view on Concordia and on the PDF.  Note that the reference materials both primary and secondary will not appear in the PDF view.
-5. To set filters for percent discordance and percent uncertainty, adjust the sliders in the panel under the PDF. To apply them to the Concordia plot, select "apply filters" checkbox under the Concordia.  To set the sliders to the default values specified in the lab data manager, click "Default", and to clear the filters, click "Clear".
-6. To change what dates are shown on the PDF, select one of the three dates (6/8, 6/7, or best date). We suggest the best date option.
-7. Best date filter can be changed while you are looking at unknowns in Concordia space by sliding the blue best date handle on the vertical axis.
-8. When a fraction is removed be patient as it will take until the next primary reference material fraction to update the session.
-9. If you need to refresh, click "Refresh Views"
-10. Wait until the run has completed and proceed to Project Raw Data Manager (see below).
-
+-----
 
 ### Using the Aliquot Manager
 
 Use the Aliquot Manager to organize the input parameters for the fractions in an aliquot, collate notes and metadata about the aliquot, and archive the reduced data to a database. To access the Aliquot Manager, click *Aliquots* and select the aliquot you would like to view or just click the aliquot's name in the main window. The Aliquot manager will open in a new window. The Aliquot Manager has five tabs situated near the bottom of the window.
 
+-------
 
 #### Adding Aliquots
 
->To add an aliquot to your sample, type the name of the aliquot in the *Aliquot Name* box and click *Add Name*. This will add your aliquot to your sample's aliquot list. You can select an aliquot from that list to edit or remove it. If you ever want to change the name of an aliquot, select it from the list, change the name in the Add Name box, and click Save Edited.
+To add an aliquot to your sample, type the name of the aliquot in the *Aliquot Name* box and click *Add Name*. This will add your aliquot to your sample's aliquot list. You can select an aliquot from that list to edit or remove it. If you ever want to change the name of an aliquot, select it from the list, change the name in the Add Name box, and click Save Edited.
+
+-------
+
 
 #### Adding Fractions Manually
->Select an aliquot from the sample's aliquot list. Then click *Import Fraction Files* and navigate to your sample's fraction files which are saved as XML documents. You can import multiple fractions at a time by holding CTRL and clicking the files.
+Select an aliquot from the sample's aliquot list. Then click *Import Fraction Files* and navigate to your sample's fraction files which are saved as XML documents. You can import multiple fractions at a time by holding CTRL and clicking the files.
+
+------
 
 #### Adding Fractions with Live Workflow
->The Live Workflow mode establishes a direct link between Tripoli and ET_Redux. To enable Live Workflow, you must create a folder called "SampleMetaData" and then click the *Set SampleMetaData Folder* button. Tripoli must also be told the location of this SampleMetaData folder.  In Tripoli, point to this SampleMetaData folder with the *Set Live Workflow Data Folder* item from the Control Panel menu. Clicking the *START Live Workflow* button at the bottom of ET_Redux’s main screen immediately imports data from Tripoli and prompts ET_Redux to update its calculations. 
+The Live Workflow mode establishes a direct link between Tripoli and ET_Redux. To enable Live Workflow, you must create a folder called "SampleMetaData" and then click the *Set SampleMetaData Folder* button. Tripoli must also be told the location of this SampleMetaData folder.  In Tripoli, point to this SampleMetaData folder with the *Set Live Workflow Data Folder* item from the Control Panel menu. Clicking the *START Live Workflow* button at the bottom of ET_Redux’s main screen immediately imports data from Tripoli and prompts ET_Redux to update its calculations. 
+
+-------
 
 #### Using the Lab Data Manager
 
->From the Lab Data Manager you can import, create, and manage defined data models of data reduction parameters, such as for tracers, Pb and U fractionation, laboratory Pb blank and initial common Pb isotopic compositions, physical constants, mineral standards, and rare earth elements. ET_Redux saves the selected models with each sample file so they are available to anyone using ET_Redux to access the file. Just select *Lab Data* from the top menu of ET_Redux to manage your data models.
+From the Lab Data Manager you can import, create, and manage defined data models of data reduction parameters, such as for tracers, Pb and U fractionation, laboratory Pb blank and initial common Pb isotopic compositions, physical constants, mineral standards, and rare earth elements. ET_Redux saves the selected models with each sample file so they are available to anyone using ET_Redux to access the file. Just select *Lab Data* from the top menu of ET_Redux to manage your data models.
 
+
+-----
   
 #### Manual Fraction Entry
 
->Click Add Name to add the new aliquot. Increment the counter below to change the number of fractions it contains (you can add more at any time). Press Insert Fraction to add more fractions.
+Click Add Name to add the new aliquot. Increment the counter below to change the number of fractions it contains (you can add more at any time). Press Insert Fraction to add more fractions.
 
->Order the fractions in the data table with the arrows to the left. After entering the required information for each fraction, press "SaveAs Sample".  Navigate to the desired location, then create a new folder for your sample before saving the .redux file inside. SaveAs Sample controls the name and location of where you are saving - use "Close and Save" to save and close out of the project.  
+Order the fractions in the data table with the arrows to the left. After entering the required information for each fraction, press "SaveAs Sample".  Navigate to the desired location, then create a new folder for your sample before saving the .redux file inside. SaveAs Sample controls the name and location of where you are saving - use "Close and Save" to save and close out of the project.  
   
+-----
 
 #### Fraction Fast Details Tab
 
->The *Fraction Fast Details* tab is the first tab you will see after opening the Aliquot manager. It contains a table with a row for each fraction and a column for each possible input reduction parameter organized into four groups which are broken down into further groups:
+The *Fraction Fast Details* tab is the first tab you will see after opening the Aliquot manager. It contains a table with a row for each fraction and a column for each possible input reduction parameter organized into four groups which are broken down into further groups:
 
 1. Laboratory Data
 	* Fraction Name
@@ -169,25 +196,29 @@ Use the Aliquot Manager to organize the input parameters for the fractions in an
 	* Th/U of magma, uncertainty
 	* <sup>231</sup>Pa/<sup>235</sup>U activity ratio, uncertainty
 
+------
+
 #### Fraction Notes Tab
 
->The *Fraction Notes* tab displays a concatinated list of the fractions in the aliquot and their corresponsing notes.
+The *Fraction Notes* tab displays a concatinated list of the fractions in the aliquot and their corresponsing notes.
 
 **Fraction Archiving Details Tab**
 
->The *Fraction Archiving Details* tab allows you to edit the archiving details of your fractions.
+The *Fraction Archiving Details* tab allows you to edit the archiving details of your fractions.
 
 **References, Metadata and Consistency Tab** 
 
->The *References, Metadata and Consistency* tab allows you to edit the references and metadata for your aliquot.
+The *References, Metadata and Consistency* tab allows you to edit the references and metadata for your aliquot.
 
 **Archive Aliquot to Database Tab**
 
->The *Archive Aliquot to Database* tab allows you to archive your aliquot to a database using its IGSN number which you set with the Sample Manager.
+The *Archive Aliquot to Database* tab allows you to archive your aliquot to a database using its IGSN number which you set with the Sample Manager.
 
 **Using the Fraction Manager**
 
->The Fraction Manager provides detailed information about each paired U-Pb analysis organized into tabs. These tabs, situated at the bottom of the fraction manager, include *Pb Data*, *U Data*, *Tracer*, *Corrections*, *Pb Blank*, *Initial Pb*, *Reports*, *Archiving Details*, and *Kwiki*.
+The Fraction Manager provides detailed information about each paired U-Pb analysis organized into tabs. These tabs, situated at the bottom of the fraction manager, include *Pb Data*, *U Data*, *Tracer*, *Corrections*, *Pb Blank*, *Initial Pb*, *Reports*, *Archiving Details*, and *Kwiki*.
+
+-------
 
 ### Kwiki Tab
 
@@ -200,6 +231,8 @@ The top right panel is a U-Pb concordia plot that displays uncertainty ellipses 
 The bottom panel shows the three calculated dates for the fraction, their uncertainties, and a graphical breakdown of each date's variance by the contribution from each input parameter. These graphs respond to both value sliders and uncertainty sliders.
 
 The Kwiki tab provides a live view of the data reduction progress in Live Workflow mode while Tripoli is updating data for ET_Redux in real time.
+
+-----
 
 **Pb Data and U Data Tabs**
 
@@ -244,11 +277,15 @@ Using Geochron Data
 4. Press *Proceed to Aliquot Chooser*.
 5. Input one or more Aliquot IGSN from <a href="http://www.geochron.org/search.php" target="_blank">Geochron</a>.
 
+-----
+
 ### Reports Overview
 
 The Reports menu gives the user control over ET_Redux's data table through the reports settings model.  The reports setting menu title will change in response to the isotope system as, for example, 'UPb Reports' and 'UTh Reports'.  ET_Redux allows the user to customize and save report settings models as XML files that can be applied to and saved with any ET_Redux data set, shared with other users, and used to format data tables downloaded as aliquots from <a href="http://GeoChron.org" target="_blank">GeoChron.org</a> on our Android mobile app <a href="http://cirdles.org/projects/chroni/" target="_blank">CHRONI</a>.  
 
 The data table is organized by categories that each have columns.  For example the category 'Dates' includes columns for date '206Pb/238U' and its associated uncertainty.  Other categories currently available include Fraction, PbcCorr (Common lead corrected) Dates, Composition, Isotopic Ratios, PbcCorr Isotopic Ratios, Correlation Coefficients, and Trace Elements. Customized footnotes are automatically generated and kept in alphabetical order from left to right. The rows are organized by aliquots, which contain one fraction or analysis per row.
+
+------
 
 **Reports Tab**
 
@@ -257,7 +294,9 @@ The *Reports* tab allows you to write two files:
 1. A file containing all the inputs, intermediate variables, outputs, and their uncertainties.
 2. A file containing all of the covarience and Jacobian matrices used in the uncertainty propagation algorithms.
 
-#### Managing Reports
+------
+
+#### Reports Settings Manager
 
 The Report Settings Manager is available as the first item under the Reports menu.  The manager allows the user to customize the data tables produced by ET_Redux by choosing and ordering the categories, and choosing and ordering the columns within each category. To hide or show a single category or column, double-click it or use the hide/show button.  The show ALL or hide ALL buttons hide or show all of the elements at once. Each column can be customized relative to whether significant digits are used to format the numerical entries in the table.  Units of Ma or Ka are available for the Dates category.
 
