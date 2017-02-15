@@ -6,6 +6,7 @@ category: Help
 reference: Procedures
 ---
 
+
 ## GeoPass With ET_Redux
 
 Once you have obtained your SESAR ID you can use this to register a sample. Your sample will be given a unique IGSN number. ET_Redux uses the IGSN as a source for metadata. You can now pull all of the metadata from SESAR to process the sample and ET_Redux can upload the data processing into Geochron - selecting public will make the samples viewable on a map. This functionality will allow samples to be viewable throughout the world.
@@ -29,11 +30,13 @@ Open your preferred command terminal and navigate to the directory that contains
 
     $ java -jar ET_Redux<version>.jar
 
-Learn more about using a command line <a href="http://cli.learncodethehardway.org/book/" target="_blank">here</a>.
+Learn more about using a command line <a href="http://cli.klearncodethehardway.org/book/" target="_blank">here</a>.
 
 *Note: This command should work for all operating systems.*
 
 ------
+
+The following goes through some basic methods and procedures for opening/starting a new project in ET_Redux.
 
 ### New <a href="#project">Project</a> from Raw Data
 
