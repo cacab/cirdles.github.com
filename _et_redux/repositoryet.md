@@ -1,7 +1,7 @@
 ---
 layout: project-page
-help: et_redux
-title: ET_REDUX Repository
+help: et&#95;redux
+title: ET&#95;Redux Repository
 category: Repository
 reference: repository
 ---

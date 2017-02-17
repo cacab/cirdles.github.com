@@ -1,7 +1,7 @@
 ---
 layout: project-page
 help: chroni
-title: CHRONI Repository
+title: Chroni Repository
 category: Repository
 reference: repository
 ---
