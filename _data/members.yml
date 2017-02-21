@@ -1,3 +1,11 @@
+- name: Tia Curry
+  date: 2016-06-01 00:00:00
+  status: current
+  image_url: /assets/images/TiaCurry.png
+  position: Undergraduate Research Assistant
+  email: currytn@g.cofc.edu
+  blog: https://currytn.wordpress.com/cirdles-mars/
+  
 - name: Robert Bigelow
   date: 2016-06-01 00:00:00
   status: current
