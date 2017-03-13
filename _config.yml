@@ -15,6 +15,7 @@ paginate_path: "/about/news/page:num/"
 highlighter: pygments
 markdown: kramdown
 gems: [jekyll-paginate]
+exclude: [vendor]
 
 collections:
 - chroni
