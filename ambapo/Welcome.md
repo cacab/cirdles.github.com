@@ -6,4 +6,5 @@ category: Welcome
 reference: welcome
 ---
 
-Coming Soon!
+
+Content coming soon!
