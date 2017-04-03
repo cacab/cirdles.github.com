@@ -1,13 +1,10 @@
 ---
 layout: project-page
 help: squid
-title: <img src="/assets/icons/github-icon-white.png" alt="Ocotcat" height="30" width="30"> Welcome
+title: Welcome
 category: Welcome
 reference: welcome
 ---
-<a href="https://github.com/CIRDLES/Topsoil" target= "&#95;blank">
-<img src="/assets/icons/SquidLogo.png" alt="link to ET_Redux repository" height="100" width="90">
-</a>
 
 Squid 3.0 was proposed as the project name for replacing Squid 2.50 during the VIII SHRIMP 2016 Workshop in Granada.
 
