@@ -8,6 +8,8 @@ reference: Procedures
 
 *The current documentation applies to Chroni version 1.0.1*
 
+Currently, CHRONI only supports Android devices. Due to the current layout sizes, the application works best on tablets.
+
 <b>Installation and Beyond</b>
 
 1. Install our most recent CHRONI APK from our [Releases](https://github.com/CIRDLES/CHRONI/releases).
@@ -22,15 +24,19 @@ reference: Procedures
 
 
 <b>Downloading Aliquot Files</b><br>
-When downloading aliquot files from <a href="http://geochron.org/detritalsearch.php" target="_blank">geochron</a>, simply type in the IGSN number into the download bar 
+
+An aliquot file is an XML file that contains data on a specifc rock sample.
+CHRONI uses report settings to display this data in an aliquot data table.
+
+When downloading aliquot files from <a href="http://geochron.org/detritalsearch.php" target="_blank">geochron</a>, simply type in the IGSN number into the download bar
 of the aliquot activity, then press the download button. To view this aliquot, you then need to open it
-in the file browser by click the add button, selecting your aliquot, then pressing open. 
+in the file browser by click the add button, selecting your aliquot, then pressing open.
 <br><br>
-The other way to download an aliquot is by downloading it from outside of the app. When downloading outside 
+The other way to download an aliquot is by downloading it from outside of the app. When downloading outside
 of CHRONI, the aliquot file will be located in the download file of your device. CHRONI has a new import
- feature where you can click the file you want to pull files from and it will automatically pull aliquot 
- and report setting files and insert them into the correct CHRONI folders. This feature can be accessed 
- from the menu bar. 
+ feature where you can click the file you want to pull files from and it will automatically pull aliquot
+ and report setting files and insert them into the correct CHRONI folders. This feature can be accessed
+ from the menu bar.
 
 <hr>
 
@@ -46,11 +52,11 @@ When on your android tablet, Chroni will be stored in your applications menu. Cl
 6. The table itself contains the following information categories:
 
 	-<a href="#fraction">Fraction</a>
-	
+
 	-Composition
-	
+
 	-<a href="#is_r">Isotopic Ratios</a>
-	
+
 	You will be able to scroll vertcally and horizontally to observe the information on the given table. In order to return to the Aliquot screen, click the back button.
 7. The GeoChron IGSN file input form requires a GeoChron IGSN, which can be found on the SESAR website after you register your samples.
 
@@ -74,11 +80,12 @@ When on your android tablet, Chroni will be stored in your applications menu. Cl
 Report settings are XML files created through ET Redux in which the user specifies which data sets and units they would
 like to display. The user can decide what columns appear, the amount of significant digits they would like to display, and more.
 
-To obtain custom report settings, the user needs to be sent report settings from colleagues or create their own through 
+<b>Downloading</b><br>
+To obtain custom report settings, the user needs to be sent report settings from colleagues or create their own through
 ET Redux. To access information about using ET Redux, click <a href="http://cirdles.org/projects/et_redux/#report-settings" target="_blank">here</a>.
 <br>Once you have downloaded a report setting to your device, you can use the new import feature to put into CHRONI's file system.
 Open up the CHRONI menu and then click on the import activity. Select the file you want to import from and click import and it
-will simply transfer any report settings and/or aliquot files you have in that folder. 
+will simply transfer any report settings and/or aliquot files you have in that folder.
 
 
 1. From the home screen, click the Report Settings button to arrive at the Report Settings screen.

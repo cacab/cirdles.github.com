@@ -8,5 +8,5 @@ reference: repository
 
 
 <a href="https://github.com/CIRDLES/CHRONI" target="_blank">
-<img src="/assets/icons/chroni_logo.png" alt="link to CHRONI repository" height="42" width="42">
+<img src="/assets/icons/chroniLogoNew.png" alt="link to CHRONI repository" height="80" width="80">
 </a>

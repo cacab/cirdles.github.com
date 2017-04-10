@@ -1,7 +1,7 @@
 ---
 layout: project-page
 help: squid
-title: <img src="/assets/icons/github-icon-white.png" height="42" width="42"> Squid Repository
+title: <img src="/assets/icons/github-icon-white.png" height="30" width="30"> Squid Repository
 category: Repository
 reference: repository
 ---
