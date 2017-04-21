@@ -10,8 +10,6 @@ reference: Installation
 
 Currently, CHRONI only supports Android devices. Due to the current layout sizes, the application works best on tablets.
 
-<b>Installation and Beyond</b>
-
 1. Install our most recent CHRONI APK from our [Releases](https://github.com/CIRDLES/CHRONI/releases).
 	* Note: if using a computer to download the APK, simply send the file to your device via email.
 	* Select the application from the dropdown menu on your device and hit install.

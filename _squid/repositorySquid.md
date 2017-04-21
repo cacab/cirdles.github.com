@@ -8,5 +8,5 @@ reference: repository
 
 
 <a href="https://github.com/CIRDLES/Squid" target="_blank">
-<img src="https://raw.githubusercontent.com/CIRDLES/DRAKE/master/logos/Squid/SquidLogo.png" alt="link to Squid repository" height="80" width="80">
+<img src="https://github.com/CIRDLES/DRAKE/blob/master/logos/Squid/SquidLogo.png" alt="link to Squid repository" height="80" width="80">
 </a>
