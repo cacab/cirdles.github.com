@@ -1,7 +1,8 @@
 ---
-help: Mars
+layout: project-page
+help: mars
 title: Welcome
-category: Welcome
+category: help
 reference: welcome
 ---
 
