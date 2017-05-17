@@ -10,3 +10,5 @@ reference: repository
 <a href="https://github.com/CIRDLES/CHRONI" target="_blank">
 <img src="/assets/icons/chroniLogoNew.png" alt="link to CHRONI repository" height="80" width="80">
 </a>
+
+[*If you have ideas about how to improve the help, report them here!*](https://github.com/CIRDLES/CHRONI/issues/new)
