@@ -12,7 +12,7 @@ reference: Glossary
 
 <p id="live_workflow"><font size="3" color="orange"> <b>Live Workflow</b></font>- establishes a direct link between Tripoli (another CIRDLES software product) and ET_Redux.</p>
 
-<p id="project"><font size="3" color="orange"><b>Project</b></font>- collection of samples</p>
+<p id="project"> <font size="3" color="orange"> <b>Project</b></font>- collection of samples</p>
 
 <p id="sample"><font size="3" color="orange"><b>Sample</b></font>- A single collection of a geologic material (usually rock or mineral) from one location. A sample has a lab specific name and a unique identifier such as the IGSN provided by SESAR. It is composed of aliquots or physical pieces of the sample.</p>
 
