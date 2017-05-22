@@ -6,4 +6,4 @@ title: Concept of Operations
 reference: Concept_of_operations
 ---
 
-The purpose of Chroni is to allow people to archive data, while collecting data in the field. With CHRONI, users do not need to remain stationary.
+The purpose of CHRONI is to allow people to archive data, while collecting data in the field. With CHRONI, users do not need to remain stationary.
