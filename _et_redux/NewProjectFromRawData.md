@@ -6,6 +6,9 @@ category: Help
 reference: NewProjectRaw
 ---
 
+
+<img src="/assets/images/Project_Manager.jpg" alt="link to ET_Redux repository" height="370" width="545">
+
 The following goes through some basic methods and procedures for opening/starting a new <a href="#project">project</a> in ET_Redux.
 
 
