@@ -1,7 +1,7 @@
 ---
 layout: project-page
 help: topsoil
-title: Commons Repository
+title: <img src="/assets/icons/github-icon-white.png" alt="link to ET_Redux repository" height="30" width="30"> Commons Repository
 category: Repository
 reference: repository
 ---
