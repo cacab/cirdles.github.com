@@ -1,7 +1,7 @@
 ---
 layout: project-page
 help: mars
-title: <img src="/assets/icons/github-icon-white.png" alt="Ocotcat" height="30" width="30"> MARS Repository>
+title: <img src="/assets/icons/github-icon-white.png" alt="Ocotcat" height="30" width="30"> MARS Repository
 category: Repository
 reference: repository
 ---
