@@ -1,13 +1,13 @@
 ---
 layout: project-page
 help: topsoil
-title: Glossary
-category: Repository
+title: Glossary of Terms
+category: Help
 reference: Glossary
 ---
 
-<p id="dataset"><font size="3" color="orange"><b>Datasets</b></font>-collections of sets of data imported into Topsoil that are composed of individual elements. The data in these Datasets can be manipulated for data visualization.</p>
+<p id="is_sys"><font size="3" color="orange"><b>Isotope System</b></font> - An option based on the type of radiometric analysis produced the data in question. Currently, the only two supported dating schemes are Uranium-Lead (U-Pb) and Uranium-Thorium (U-Th).</p>
 
-<p id="is_sys"><font size="3" color="orange"><b>Isotope Systems</b></font> - Topsoil allows for users to choose from two radiometric dating schemes: U-Pb (Uranium-Lead) and U-Th (Uranium-Thorium).</p>
+<p id="unct"><font size="3" color="orange"><b>Unct.</b></font> - An abbreviation for "Uncertainty".</p>
 
-<p id="plot"><font size="3" color="orange"><b>Plots</b></font>- Topsoil allows for users to choose from two different types of plots for data visualization: Scatter Plot and Uncertainty Ellipse Plot.</p>
+<p id="evol_mat"><font size="3" color="orange"><b>Evolution Matrix</b></font> - A plotting feature for the U-Th isotope system with a set of isochrons and contours.</p>
