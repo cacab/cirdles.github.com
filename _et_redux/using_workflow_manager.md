@@ -6,7 +6,7 @@ category: Help
 reference: UWManager
 ---
 
-<img src="/assets/images/Workflow_Manager.jpg" alt="link to ET_Redux repository" height="370" width="545">
+<img src="/assets/images/Workflow_Manager.jpg" alt="link to ET_Redux repository" width="100%">
 
 The Workflow Manager can be accessed by clicking *Sample* in the top menu of ET_Redux. You will be presented with several options for creating and editing a sample. To create a new sample, click *New Sample Analysis for ID-TIMS*. This opens the Workflow Manager for a new sample.
 
