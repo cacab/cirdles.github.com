@@ -6,6 +6,9 @@ category: Welcome
 reference: welcome
 ---
 
+<a href="https://github.com/CIRDLES/ET_Redux" target= "&#95;blank">
+<img src="https://raw.githubusercontent.com/CIRDLES/cirdles.github.com/master/assets/icons/Tripoli2009.png" alt="link to Tripoli repository" height="95.6" width="95">
+</a>
 
 Latest version of Tripoli is <a href="http://www.earth-time.org/projects/tripoli/winos/currentRelease/Tripoli-4-8-3-Installer.msi" target="_blank">here</a>
 
