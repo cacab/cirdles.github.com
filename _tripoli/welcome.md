@@ -6,7 +6,7 @@ category: Welcome
 reference: welcome
 ---
 
-<a href="https://github.com/CIRDLES/ET_Redux" target= "&#95;blank">
+<a href="https://github.com/CIRDLES/Tripoli-Issues" target= "&#95;blank">
 <img src="https://raw.githubusercontent.com/CIRDLES/cirdles.github.com/master/assets/icons/Tripoli2009.png" alt="link to Tripoli repository" height="95.6" width="95">
 </a>
 
