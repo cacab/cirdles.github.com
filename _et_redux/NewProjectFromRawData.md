@@ -6,8 +6,11 @@ category: Help
 reference: NewProjectRaw
 ---
 
+<a href="MY WEBSITE LINK" target="_blank">
+    <img src="/assets/images/Project_Manager.jpg" style='width:100%;' border="0" alt="Null">
+  </a>
 
-<img src="/assets/images/Project_Manager.jpg" alt="link to ET_Redux repository" width="100%">
+
 
 The following goes through some basic methods and procedures for opening/starting a new <a href="#project">project</a> in ET_Redux.
 
