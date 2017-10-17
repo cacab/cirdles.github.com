@@ -22,9 +22,3 @@ You can navigate to the [CHRONI Repository](https://github.com/CIRDLES/CHRONI) o
 5. Underneath the "Download" option is "History." When "History," is clicked the user will be able to see the files that the user has opened.
 6. When the user clicks the "About" option, the user will be navigated to the About page, which explains CHRONI's purpose and origins, as well as how the user can contact one of the developers.
 7. When the user clicks "Help," the user will be redirected to the CHRONI Project page on cirdles.org.
-
-<a href="https://github.com/CIRDLES/CHRONI" target="_blank">
-<img src="https://raw.githubusercontent.com/CIRDLES/cirdles.github.com/master/assets/images/Documentation_Update.png" alt="link to CHRONI repository" height="200" style='width:100%;' border="0" alt="Null">
-</a>
-
- Contact Developers: <a href="mailto:cozartge@g.cofc.edu"> Gabrielle Cozart </a> and <a href="mailto:newmantp@g.cofc.edu"> Tyler Newman </a>
