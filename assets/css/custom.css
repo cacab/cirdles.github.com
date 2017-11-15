@@ -2,15 +2,16 @@
 Theme Name: CIRDLES Website Styles
 Description: Bootstrap Customizations for CIRDLES
 Author: Joey Baldwin
+Edited by: John-Michael Baldy
 */
 
 
 /****** General Styles ******/
 
 body {
-	color: #fff;
-	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-	background: #333;
+	color: black;
+	/* text-shadow: 0 1px 3px rgba(0,0,0,0.5); */
+	background: #C0D6DF;
 	font-size: 17px;
 	line-height: 1.5em;
 	position: relative;
@@ -21,7 +22,7 @@ body {
 }
 
 .box {
-	background: #444;
+	background: #EAEAEA;
 	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 	border-radius: 10px;
 	padding: 30px;
@@ -79,7 +80,7 @@ dd {
 
 /****** Links ******/
 a {
-	color: orange;
+	color: black;
 }
 
 a:hover {
@@ -100,11 +101,14 @@ a:hover {
 }
 
 .dropdown-menu {
-	background: #212121;
+	background: #c0d6df;
 }
 
 .dropdown-menu li a {
-	color: #fff;
+	color: #000;
+}
+a.dropdown-toggle {
+	background: #c0d6df;
 }
 
 .navbar-brand {
@@ -118,12 +122,12 @@ a:hover {
 	padding-top: 50px;
 }
 
-.grow { 
-	transition: all .2s ease-in-out; 
+.grow {
+	transition: all .2s ease-in-out;
 }
 
-.grow:hover { 
-	transform: scale(1.1); 
+.grow:hover {
+	transform: scale(1.1);
 }
 
 
@@ -134,7 +138,6 @@ a:hover {
 }
 
 .site-footer {
-  background-color: #212121;
   margin-top: 40px;
   padding-bottom: 20px;
 }
@@ -229,12 +232,13 @@ left: 0;
 
 .title {
 	padding-top: 5px;
+	color: #fbfbf2;
 }
 
 .icon > svg {
-  vertical-align: middle; 
+  vertical-align: middle;
 }
-  
+
 .icon > svg path {
     fill: #fff;
 
@@ -251,7 +255,7 @@ left: 0;
 
 /****** media queries ******/
 
-/* unfortunately I didn't have the 
+/* unfortunately I didn't have the
 foresite to design the website with
 a mobile first design so these media
 queries are primarily for the mobile.
@@ -294,11 +298,11 @@ view */
 	}
 
 	/* Counters the hover grow */
-	.grow { 
+	.grow {
 		transition: none !important;
 	}
 
-	.grow:hover { 
+	.grow:hover {
 		transform: none !important;
 	}
 
@@ -322,11 +326,3 @@ view */
 		display: block;
 	}
 }
-
-
-
-
-
-
-
-
