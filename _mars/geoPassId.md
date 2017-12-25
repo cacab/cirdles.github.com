@@ -1,7 +1,7 @@
 ---
 layout: project-page
 help: mars
-title: GeoPass Id and Mars
+title: GeoPass Id
 category: Help
 reference: geoPassId
 ---

@@ -1,7 +1,7 @@
 ---
 layout: project-page
 help: mars
-title: Troubleshooting Issues with Running MARS
+title: Troubleshooting
 category: Help
 reference: TroubleShooting
 ---
