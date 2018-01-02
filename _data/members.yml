@@ -121,7 +121,7 @@
 
 - name: Jessica Mack
   date: 2013-01-01 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/jessica_mack.jpg
   position: Undergraduate Research Assistant
   office: Harbor Walk East 307
@@ -312,7 +312,7 @@
 
 - name: Adrien Laubus
   date: 2015-10-21 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/Adrien_Laubus_Profile Picture.jpg
   position: Undergraduate Research Assistant
   office: Harbor Walk East 307

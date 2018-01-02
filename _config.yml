@@ -14,7 +14,7 @@ paginate_path: "/about/news/page:num/"
 # Build settings
 highlighter: rouge
 markdown: kramdown
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 exclude: [vendor]
 
 collections:
