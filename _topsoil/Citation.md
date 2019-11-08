@@ -3,7 +3,7 @@ layout: project-page
 help: topsoil
 title: Citation
 category: Help
-reference: citation
+reference: Citation
 ---
 
 To cite Topsoil, please provide a footnote or acknowledgement as follows:

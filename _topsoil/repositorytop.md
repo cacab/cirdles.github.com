@@ -1,9 +1,9 @@
 ---
 layout: project-page
 help: topsoil
-title: <img src="/assets/icons/github-icon-white.png" alt="Ocotcat" height="30" width="30"> Topsoil Repository
+title: <a href="https://github.com/CIRDLES/Topsoil" target= "&#95;blank">
 category: Repository
-reference: repository
+reference: repositoryTop
 ---
 
 <a href="https://github.com/CIRDLES/Topsoil" target= "&#95;blank">
