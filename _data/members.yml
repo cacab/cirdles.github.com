@@ -14,6 +14,14 @@
   email: Smithl3@g.cofc.edu
   blog:
 
+- name: Jake Marotta
+  date: 2016-06-01 00:00:00
+  status: current
+  image_url: /assets/images/jm.jpg
+  position: Graduate Research Assistant
+  email: marottajb@g.cofc.edu
+  blog:
+
 - name: Tia Curry
   date: 2016-06-01 00:00:00
   status: past
@@ -91,7 +99,7 @@
 
 - name: Gabrielle Cozart
   date: 2013-01-01 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/gabrielle_cozart.jpeg
   position: Graduate Research Assistant
   office: Harbor Walk East 307
@@ -319,14 +327,6 @@
   email: adrien.laubus@gmail.com
   blog:  http://www.adrien-laubus.fr
 
-- name: Jake Marotta
-  date: 2016-06-01 00:00:00
-  status: current
-  image_url: /assets/images/jm.jpg
-  position: Graduate Research Assistant
-  email: marottajb@g.cofc.edu
-  blog:
-
 - name: John-Michael Baldy
   date: 2016-06-01 00:00:00
   status: past
@@ -361,7 +361,7 @@
 
 - name: Allison Hansen
   date: 2017-09-01 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/Allison_Hansen.JPG
   position: Undergraduate Research Assistant
   email: hansena@g.cofc.edu
@@ -385,7 +385,7 @@
 
 - name: Meagan Gould
   date: 2019-01-01 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/Meagan_Gould.jpg
   position: Undergraduate Research Assistant
   email: gouldma@g.cofc.edu
@@ -393,7 +393,7 @@
 
 - name: James Rundle
   date: 2018-09-01 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/James_Rundle.jpeg
   position: Undergraduate Research Assistant
   email: rundleja@g.cofc.edu
@@ -402,7 +402,63 @@
 - name: Jonari Ward
   date: 2019-05-06 00:00:00
   status: current
-  image_url: /assets/images/jonari_ward.JPG
+  image_url: /assets/images/jonari_ward.jpeg
   position: Undergraduate Research Assistant
   email: wardjs@g.cofc.edu
+  blog:
+
+- name: Noah Drake
+  date: 2019-08-07 00:00:00
+  status: current
+  image_url:
+  position: Undergraduate Research Assistant
+  email: drakene@g.cofc.edu 
+  blog:
+
+- name: Garrett Brenner
+  date: 2019-08-08 00:00:00
+  status: current
+  image_url: /assets/images/Garrett_Brenner.jpeg
+  position: Undergraduate Research Assistant
+  email: brennergj@g.cofc.edu
+  blog:
+
+- name: Josh Gilley
+  date: 2019-11-08 00:00:00
+  status: current
+  image_url:
+  position: Undergraduate Research Assistant
+  email: gilleyjd@g.cofc.edu
+  blog:
+
+- name: Daniel Halley
+  date: 2019-11-08 00:00:00
+  status: current
+  image_url:
+  position: Undergraduate Research Assistant
+  email: halleydt@g.cofc.edu
+  blog:
+
+- name: Blake Mitrick
+  date: 2019-11-08 00:00:00
+  status: current
+  image_url:
+  position: Undergraduate Research Assistant
+  email: mitrickb@g.cofc.edu
+  blog:
+
+- name: Robert Niggebrugge
+  date: 2019-11-08 00:00:00
+  status: current
+  image_url:
+  position: Undergraduate Research Assistant
+  email: niggebruggere@g.cofc.edu
+  blog:
+
+- name: Jacob Roddam
+  date: 2019-11-08 00:00:00
+  status: current
+  image_url:
+  position: Undergraduate Research Assistant
+  email: roddamjl@g.cofc.edu
   blog:
