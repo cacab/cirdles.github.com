@@ -423,6 +423,14 @@
   email: brennergj@g.cofc.edu
   blog:
 
+- name: Blake Mitrick
+  date: 2019-11-07 00:00:00
+  status: current
+  image_url:
+  position: Undergraduate Research Assistant
+  email: mitrickb@g.cofc.edu
+  blog:
+
 - name: Josh Gilley
   date: 2019-11-08 00:00:00
   status: current
@@ -437,14 +445,6 @@
   image_url:
   position: Undergraduate Research Assistant
   email: halleydt@g.cofc.edu
-  blog:
-
-- name: Blake Mitrick
-  date: 2019-11-08 00:00:00
-  status: current
-  image_url:
-  position: Undergraduate Research Assistant
-  email: mitrickb@g.cofc.edu
   blog:
 
 - name: Robert Niggebrugge
