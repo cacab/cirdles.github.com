@@ -424,15 +424,15 @@
   blog:
 
 - name: Blake Mitrick
-  date: 2019-11-07 00:00:00
+  date: 2019-11-09 00:00:00
   status: current
-  image_url:
+  image_url: /assets/images/BlakeMitrick.jpg
   position: Undergraduate Research Assistant
   email: mitrickb@g.cofc.edu
   blog:
 
 - name: Daniel Halley
-  date: 2019-11-08 00:00:00
+  date: 2019-11-10 00:00:00
   status: current
   image_url:
   position: Undergraduate Research Assistant
@@ -440,7 +440,7 @@
   blog:
 
 - name: Jacob Roddam
-  date: 2019-11-08 00:00:00
+  date: 2019-11-10 00:00:00
   status: current
   image_url:
   position: Undergraduate Research Assistant
