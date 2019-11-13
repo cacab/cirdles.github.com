@@ -399,20 +399,20 @@
   email: rundleja@g.cofc.edu
   blog:
 
-- name: Jonari Ward
-  date: 2019-05-06 00:00:00
-  status: current
-  image_url: /assets/images/jonari_ward.jpeg
-  position: Undergraduate Research Assistant
-  email: wardjs@g.cofc.edu
-  blog:
-
 - name: Noah Drake
   date: 2019-03-01 00:00:00
   status: current
   image_url: /assets/images/NOAHDRAKE.png
   position: Undergraduate Research Assistant
   email: drakene@g.cofc.edu 
+  blog:
+
+- name: Jonari Ward
+  date: 2019-05-06 00:00:00
+  status: current
+  image_url: /assets/images/jonari_ward.jpeg
+  position: Undergraduate Research Assistant
+  email: wardjs@g.cofc.edu
   blog:
 
 - name: Garrett Brenner
@@ -422,6 +422,14 @@
   position: Undergraduate Research Assistant
   email: brennergj@g.cofc.edu
   blog:
+
+- name: Josh Gilley
+  date: 2019-09-20 00:00:00
+  status: current
+  image_url: /assets/images/joshGilley1.png
+  position: Undergraduate Reasearch Assistant
+  email: gilleyjd@g.cofc.edu
+  blog: https://github.com/joshuadgilley
 
 - name: Blake Mitrick
   date: 2019-11-09 00:00:00
@@ -446,11 +454,3 @@
   position: Undergraduate Research Assistant
   email: roddamjl@g.cofc.edu
   blog:
-
-- name: Josh Gilley
-  date: 2019-09-20 00:00:00
-  status: current
-  image_url: /assets/images/joshGilley1.png
-  position: Undergraduate Reasearch Assistant
-  email: gilleyjd@g.cofc.edu
-  blog: https://github.com/joshuadgilley
