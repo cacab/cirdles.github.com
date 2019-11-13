@@ -5,4 +5,4 @@ title: Architecture
 permalink: /resources/architecture/
 ---
 
-[Architecture Diagram](../../assets/documents/CyberInfrastructure2ETRedux.pdf)
+<img src="/assets/images/CyberInfrastructure2ETRedux.png" width="100%"> 
