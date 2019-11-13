@@ -408,7 +408,7 @@
   blog:
 
 - name: Robert Niggebrugge
-  date: 2019-10-23
+  date: 2019-10-23 00:00:00
   status: Current
   image_url: /assets/images/Robert.jpg
   position: Undergraduate Reasearch Assistant
