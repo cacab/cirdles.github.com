@@ -406,3 +406,18 @@
   position: Undergraduate Research Assistant
   email: wardjs@g.cofc.edu
   blog:
+
+- name: Josh Gilley
+  date: 2019-09-20 00:00:00
+  status: Current
+  image_url: /assets/images/joshGilley.png
+  position: Undergraduate Reasearch Assistant
+  email: gilleyjd@g.cofc.edu
+  blog: https://github.com/joshuadgilley
+
+- name: Josh Gilley
+  status: Current
+  image_url: /assets/images/joshGilley.png
+  position: Undergraduate Reasearch Assistant
+  email: gilleyjd@g.cofc.edu
+  blog: 
