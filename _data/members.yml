@@ -439,14 +439,6 @@
   email: halleydt@g.cofc.edu
   blog:
 
-- name: Jacob Roddam
-  date: 2019-11-10 00:00:00
-  status: current
-  image_url:
-  position: Undergraduate Research Assistant
-  email: roddamjl@g.cofc.edu
-  blog:
-
 - name: Josh Gilley
   date: 2019-09-20 00:00:00
   status: current
@@ -462,3 +454,11 @@
   position: Undergraduate Reasearch Assistant
   email: niggebruggere@g.cofc.edu
   blog: 
+
+- name: Jacob Roddam
+  date: 2019-11-10 00:00:00
+  status: current
+  image_url:
+  position: Undergraduate Research Assistant
+  email: roddamjl@g.cofc.edu
+  blog:
