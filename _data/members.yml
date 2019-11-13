@@ -407,7 +407,6 @@
   email: wardjs@g.cofc.edu
   blog:
 
-<<<<<<< HEAD
 - name: Noah Drake
   date: 2019-03-01 00:00:00
   status: current
@@ -447,13 +446,11 @@
   position: Undergraduate Research Assistant
   email: roddamjl@g.cofc.edu
   blog:
-=======
+
 - name: Josh Gilley
   date: 2019-09-20 00:00:00
-  status: Current
-  image_url: /assets/images/joshGilley.png
+  status: current
+  image_url: /assets/images/joshGilley1.png
   position: Undergraduate Reasearch Assistant
   email: gilleyjd@g.cofc.edu
   blog: https://github.com/joshuadgilley
-
->>>>>>> 6efbea2edbd5dc5135a67151bd783e51f45b7f8d
