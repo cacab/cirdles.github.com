@@ -407,7 +407,6 @@
   email: wardjs@g.cofc.edu
   blog:
 
-<<<<<<< HEAD
 - name: Noah Drake
   date: 2019-03-01 00:00:00
   status: current
@@ -455,15 +454,11 @@
   position: Undergraduate Reasearch Assistant
   email: gilleyjd@g.cofc.edu
   blog: https://github.com/joshuadgilley
-=======
+
 - name: Robert Niggebrugge
   date: 2019-10-23 00:00:00
-  status: Current
+  status: current
   image_url: /assets/images/Robert.jpg
   position: Undergraduate Reasearch Assistant
   email: niggebruggere@g.cofc.edu
   blog: 
-
-
-  
->>>>>>> 1b1154101bf08ff0724104b0dbca5aa18ac63315
