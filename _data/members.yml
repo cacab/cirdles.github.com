@@ -432,7 +432,7 @@
   blog: https://github.com/joshuadgilley
 
 - name: Blake Mitrick
-  date: 2019-11-09 00:00:00
+  date: 2019-10-10 00:00:00
   status: current
   image_url: /assets/images/BlakeMitrick.jpg
   position: Undergraduate Research Assistant
@@ -440,7 +440,7 @@
   blog:
 
 - name: Robert Niggebrugge
-  date: 2019-10-23 00:00:00
+  date: 2019-10-10 00:00:00
   status: current
   image_url: /assets/images/RobertNiggebrugge.jpg
   position: Undergraduate Reasearch Assistant
@@ -448,9 +448,9 @@
   blog: 
 
 - name: Daniel Halley
-  date: 2019-11-10 00:00:00
+  date: 2019-10-15 00:00:00
   status: current
-  image_url:
+  image_url: /assets/images/DanielHalley.jpeg
   position: Undergraduate Research Assistant
   email: halleydt@g.cofc.edu
   blog:
