@@ -1,7 +1,7 @@
 ---
 layout: project-page
 help: mars
-title: Setting Up Development Enviornment
+title: Setting Up Development Environment
 category: Help
 reference: Procedures-setting
 ---
