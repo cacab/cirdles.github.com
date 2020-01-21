@@ -1,7 +1,7 @@
 ---
 layout: project-page
 help: mars
-title: Samples Section
+title: My Samples Page
 category: Help
 reference: Samples
 ---
