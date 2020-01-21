@@ -11,4 +11,4 @@ reference: repository
 <img src="https://raw.githubusercontent.com/CIRDLES/DRAKE/master/logos/MARS/MarsLogo.png" alt="link to Mars repository" height="80" width="80">
 
 
-[*If you have ideas about how to improve the help, report them here!*](https://github.com/CIRDLES/MARS/issues/new)
+[*If you have ideas about how to improve the help, report them here!*](https://github.com/CIRDLES/CirdlesWebUI/issues/new)
