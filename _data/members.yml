@@ -48,6 +48,7 @@
 
 - name: Sydney Jackson
   date: 2020-03-06 00:00:00
+  status: current
   image_url: /assets/images/Sydney_Jackson.png
   position: Undergraduate Research Assistant
   email: jacksonsd@g.cofc.edu
