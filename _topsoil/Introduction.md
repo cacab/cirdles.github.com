@@ -15,3 +15,5 @@ Topsoil, a Visual Basic add-in for Microsoft Excel for analyzing and visualizing
 
 Topsoil is developed by a rotating team of students in the Cyber Infrastructure Research and Development Lab for the Earth Sciences (CIRDLES) at the College of Charleston, under the direction of Dr. James Bowring. It can be run on any platform with Java installed, and its code is available freely on GitHub.
 
+<img src="/assets/images/topsoil-imgs/Topsoil_2020_SSMBPosterSession.png" width="100%">
+
