@@ -16,4 +16,3 @@ reference: FutureGoals
 - Introduction of other Isotope systems for plotting
 - Support to save and recall customizations
 - Robust table system to allow better interaction with data
-
