@@ -48,12 +48,12 @@
 
 - name: Sydney Jackson
   date: 2020-03-06 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/Sydney_Jackson.png
   position: Undergraduate Research Assistant
   email: jacksonsd@g.cofc.edu
   blog: https://sydneydjackson462.blogspot.com/
-  
+
 - name: Antoine Lagarde
   date: 2009-01-01 00:00:00
   status: past
@@ -152,7 +152,7 @@
   office: Harbor Walk East 308
   phone: (843) 953-0805
   email: bowringj@cofc.edu
-  website: http://www.cs.cofc.edu/~bowring
+  website: http://bowringj.people.cofc.edu/
 
 - name: Jimmy Thomas
   date: 2010-01-01 00:00:00
@@ -412,12 +412,12 @@
   status: current
   image_url: /assets/images/NOAHDRAKE.png
   position: Undergraduate Research Assistant
-  email: drakene@g.cofc.edu 
+  email: drakene@g.cofc.edu
   blog: https://noahdrakecsjournal.wordpress.com/
 
 - name: Jonari Ward
   date: 2019-05-06 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/jonari_ward.jpeg
   position: Undergraduate Research Assistant
   email: wardjs@g.cofc.edu
@@ -453,7 +453,7 @@
   image_url: /assets/images/RobertNiggebrugge.jpg
   position: Undergraduate Reasearch Assistant
   email: niggebruggere@g.cofc.edu
-  blog: 
+  blog:
 
 - name: Daniel Halley
   date: 2019-10-15 00:00:00

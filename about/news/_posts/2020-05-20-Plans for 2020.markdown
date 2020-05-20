@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Plans for 2020"
+date:   2020-05-20
+author: Jim Bowring
+categories: news
+---
+
+2020 brings changes to CIRDLES.org as we cope with COVID-19 and all-virtual
+collaboration.
+
+This summer features virtually-conducted active work on Squid, Topsoil, MARS, and MarsMapMaker.
+Noah Drake will work with Dr. Bowring on Squid3 and Garrett Brenner and Jake Marotta
+will continue work on Topsoil - both projects in collaboration with the Geoscience
+Australia and the Canadian Geological Survey.
+
+Julius Walton is leading a team of Josh Gilley, Robert Niggebrugge, and Aerin Parker
+on further development of MARS and MarsMapMaker, which we plan to take live this summer
+in collaboration with Scripps Institution of Oceanography and  Lamont-Doherty Earth Observatory.
+
+Our other projects such as ET_Redux continue in maintenance mode.
+
+If you would like to join our efforts, please contact Dr. Bowring.
