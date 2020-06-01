@@ -16,7 +16,7 @@
 
 - name: Jake Marotta
   date: 2016-06-01 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/jm.jpg
   position: Graduate Research Assistant
   email: marottajb@g.cofc.edu
@@ -40,7 +40,7 @@
 
 - name: Shefali Emmanuel
   date: 2016-06-01 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/shefaliemmanuel.png
   position: Undergraduate Research Assistant
   email: emmanuelsn@g.cofc.edu
@@ -441,7 +441,7 @@
 
 - name: Blake Mitrick
   date: 2019-10-10 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/BlakeMitrick.jpg
   position: Undergraduate Research Assistant
   email: mitrickb@g.cofc.edu
@@ -465,7 +465,7 @@
 
 - name: Jacob Roddam
   date: 2019-11-10 00:00:00
-  status: current
+  status: past
   image_url: /assets/images/JacobRoddam.png
   position: Undergraduate Research Assistant
   email: roddamjl@g.cofc.edu
